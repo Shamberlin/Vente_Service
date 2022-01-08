@@ -10,7 +10,7 @@ public class frame extends JFrame{
 	frame(){
     this.setLayout(null);
 	this.setSize(1650,1080);
-	this.setTitle("Jobam Armand shamberlin");
+	this.setTitle("Nouveau");
 	this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     ImageIcon Image=new ImageIcon("logo-50.jpg");
     Container ControlHost=getContentPane();
