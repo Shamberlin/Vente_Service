@@ -1,4 +1,4 @@
-package register;
+//package register;
 
 import javax.swing.*;
 import java.awt.Color;
@@ -28,3 +28,18 @@ public class visiteur extends frame implements ActionListener {
 		this.setVisible(true);
 		
 		}
+	
+	public void actionPerformed(ActionEvent e) {
+		if(e.getSource()==s) {
+		this.dispose();
+		buttonclient b=new buttonclient();
+		}
+		else if(e.getSource()==t) {
+			this.dispose();
+			tester x=new tester();
+			
+		}
+		
+	    }
+	
+			}
