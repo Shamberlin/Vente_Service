@@ -26,7 +26,7 @@ public class visiteur extends frame implements ActionListener {
 		p.add(t);
 		this.add(p);
 		this.setVisible(true);
-		//bonjour ma cherie
+		
 		}
 	
 	public void actionPerformed(ActionEvent e) {
