@@ -1,4 +1,4 @@
-//package register;
+package register;
 
 import javax.swing.*;
 import java.awt.Color;
@@ -26,7 +26,7 @@ public class visiteur extends frame implements ActionListener {
 		p.add(t);
 		this.add(p);
 		this.setVisible(true);
-		hjhh
+		
 		
 		}
 	
